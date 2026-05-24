@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>
+Cyber Password Analyzer
+</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="card"
+id="card">
+
+<h1>
+CYBER PASSWORD ANALYZER
+</h1>
+
+<div class="inputBox">
+
+<input
+type="password"
+id="password"
+placeholder=
+"Enter Password">
+
+<span
+id="toggle"
+onclick=
+"togglePassword()">
+
+👁
+
+</span>
+
+</div>
+
+<div class="generator">
+
+<button
+onclick=
+"analyze()">
+
+CHECK MY PASSWORD
+
+</button>
+
+<div class="generator">
+
+<button
+onclick=
+"generatePassword()">
+
+GENERATE PASSWORD
+
+</button>
+
+</div>
+
+<div class="meter">
+
+<div id="fill"></div>
+
+</div>
+
+<h2 id="status">
+
+WAITING FOR CHECK...
+
+</h2>
+
+<div id="warning">
+
+Press CHECK
+
+</div>
+
+<div class="info">
+
+<p id="crack"></p>
+
+<p id="entropy"></p>
+
+<p id="ai"></p>
+
+<p id="suggested"></p>
+
+</div>
+
+<div class="terminal">
+
+<div id="logs">
+
+> System Ready
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js">
+
+</script>
+
+</body>
+
+</html>
